@@ -21,7 +21,7 @@ class ChessUI{
         this.engine = engine;
         this.config = {
             blackColor : blackColor || '#000',
-            whiteColor : whiteColor || 'rgba(0,00,00,0.1)',
+            whiteColor : whiteColor || '#c0c0c0',
         };
         this.queenIcon = null;
         this._stop = false;
